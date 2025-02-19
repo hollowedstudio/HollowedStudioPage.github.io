@@ -1,0 +1,51 @@
+body {
+    overflow: scroll;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.project-card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: #b3b3b3;
+}
+
+.project-card .btn {
+    margin-top: 10px;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+body {
+    overflow-y: scroll;
+    height: 100vh;
+    padding-bottom: 100px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
